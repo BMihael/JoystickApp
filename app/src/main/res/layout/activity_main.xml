@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/powerIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageTank"
+            android:contentDescription="@string/image_of_tank"
+            android:layout_width="260dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/powerIndicator">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_joystick"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="36dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/image_button_bg">
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_joystick"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/direction"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

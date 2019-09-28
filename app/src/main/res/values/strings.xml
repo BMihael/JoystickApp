@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidJoystickApp</string>
+    <string name="image_of_tank">ImageOfTank</string>
+    <string name="direction">Direction</string>
+</resources>
